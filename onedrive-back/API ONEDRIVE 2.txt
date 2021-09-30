@@ -1,0 +1,36 @@
+Id. de aplicación (cliente): 498c4f17-92a6-4cba-818c-2eb8249c46d5
+Identificador de objeto: 192486a4-e040-45d1-80c6-c8d576f1366d
+Id. de directorio (inquilino)(Tenant): 66c41a03-b30e-40cf-9473-3b32182fbfac
+Scope: Files.ReadWrite Files.ReadWrite.All
+Secreto del cliente: sB67Q~xFOiy7DpGmSeSt_p9PHfy3SwWy10yFF
+URI de id. de aplicación: api://66c41a03-b30e-40cf-9473-3b32182fbfac
+Uri_redirect: https://oauth.pstmn.io/v1/browser-callback
+
+https://docs.microsoft.com/en-us/graph/tutorials/javascript?tutorial-step=1
+desarrollo04@grupomarvalco.onmicrosoft.com
+----------------------------------------------------------
+Crear una carpeta
+-------------------------
+POST: https://graph.microsoft.com/v1.0/me/drive/root/children
+____________
+{
+    "name": "New Folder",
+    "folder": {}
+}
+_________________
+Permisos para crear carpeta:
+Files.ReadWrite
+Files.ReadWrite.All
+Sites.ReadWrite.All
+-------------------------------------------------
+Cargar archivos
+----------------------------------------
+PUT: https://graph.microsoft.com/v1.0/me/drive/root:/Documents/Radicado.txt:/content
+Header: Content-Type text/plain
+Body: binary
+------------------------------------
+Token correo posito2013@hotmail.com
+------------------------------------
+EwCIA8l6BAAUwihrrCrmQ4wuIJX5mbj7rQla6TUAASUY/nnNrIhlkNnpyxBvGHNQvGxsBc8hCtIJqrqaMMakxvIPPRkYB2ZBOcxDrmoNPEJ9s/ArOh5qV7qdGqJGCuHXuvBZtGD22DwKxxZVi6uoIiAr7ckOKNzpQF0fmyGxQbn5I9x8OwyRZD4neaXEyrKc2CIFtmUMkNg0oqSmTE/SCv4HYEmb03bSPAHoLQoKTQpv4KX6GbF52wl1T+wL+nRJbErlOHdWPbeYiIuFTLTJEhCBTrGw17YF92tOwiKpAdPLxREYPKjhG13kXGCyu+37PA1KQtJko7gCbNqIzCyOku/9ZRK8QN9w+GRCG5S6Yk97Wl70UkRDcxOC9H71kl0DZgAACCwONCdmQBmkWALYJEh6qUXUHKh5oSfpHx1Wpmv/2AfPEjJ1118z3AXBi+sbbwfPU/vB72nomnlw9JHQ5qB15bg0GDPYra6BivkBgYSaXRGBhREjDhOmmt6YrZB2mN2YGPxZMFIjn+VtYvWQfxA3bEhRw9iNMfgIhlyKuN80fB7RDBk2vdp+6tA3BWzXAY7ZYKuG6oeIr5Gc1Az2SIqdjbLtViSGDSaphHd9O1MfMyX4IWpRxX8XoL0n4xNQLJp3WMOB4ijEwQ6iQUWHinVJukApaocX6CBR1Rleo1JfBixEhgv/FMiww7/+nR7C+bFcacnBbEtSZGELXwviXyIeVg6sQlVvEYOGKUkb6WyKZ7OmVFl10ENclh9zxUhgBS2yQFg4XCP3HSvlejnCQnoCWxeyJBTn0Ah8el0wT59QFxiqnLuDaA2osRVWHgTmgpxJUPCgOIPqPP666WFKaCVUXSkg2xjA6Sw7/LYzoR1l6Zgj4EM+KrSIdv5H24fZTcOLSVMLEDJOT8lTVRcCPaYDnkAjrAlbZqKgdY95a70z4ZQPB7Jb+jGQbwsKq3lMAfKcwoLgiP75V0dmBwbNwCx1U+gVoIVdv0DBQdqhyx79y3tdjHScfXUU55qix2ghEpcbkO0svlkZrfookcaeQdlCHbu8kg3XB3AG28Ocpk2PXqsRF2hhr7sGoMXeYrvKVV2lPJ++c2srosRA8pi6EqQY7/Gvlg/5rxkAmI72DV+RR0XBgL/xsFW5F0JcFoaRxiNqim1vlBPJ4M5DlzBYTprQFQfGTFBLGomLeBtxplfIWAmsxSWaAg==
+
+------------------------------------
